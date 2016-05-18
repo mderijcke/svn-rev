@@ -1,0 +1,23 @@
+{
+  "name": "svn-rev",
+  "version": "0.1.0",
+  "description": "SVN revision fetcher in native ES6, no process spawning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mderijcke/svn-rev.git"
+  },
+  "author": "Mitchell de Rijcke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mderijcke/svn-rev/issues"
+  },
+  "homepage": "https://github.com/mderijcke/svn-rev#readme",
+  "dependencies": {
+    "request": "^2.72.0",
+    "xml2js": "^0.4.16"
+  }
+}
